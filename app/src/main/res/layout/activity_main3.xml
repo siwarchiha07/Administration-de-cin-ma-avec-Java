@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFDDC9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Barre de recherche -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What would you like to buy?"
+            android:textSize="20sp"
+            android:textColor="@color/Pink1"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Search items..."
+            android:textColorHint="#C0C0C0"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:background="@drawable/search_edit_background"
+            android:paddingStart="16dp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Nouvelle section : New Movies -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New collection"
+            android:textColor="#83704F"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Carte 1 -->
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="12dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/imageee"
+                        android:contentDescription="Movie Poster" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hydration Cream"
+                        android:textColor="#5D161110"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="35dt"
+                        android:textColor="@color/Pink1"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <!-- Carte 2 (Wonderful Life) -->
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="12dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/im"
+                        android:contentDescription="Movie Poster" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Primer"
+                        android:textColor="#5D161110"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25dt"
+                        android:textColor="@color/Pink1"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <!-- Carte 3 (The Usual Suspects) -->
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/ii"
+                        android:contentDescription="Movie Poster" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vitamin C Serum"
+                        android:textColor="#5D161110"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="45dt"
+                        android:textColor="@color/Pink1"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Section : Upcoming Movies -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availble products"
+            android:textColor="#83704F"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Carte 1 -->
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="12dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/bronzer"
+                    android:contentDescription="Movie Poster" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bronzer"
+                    android:textColor="#5D161110"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50dt"
+                    android:textColor="@color/Pink1"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <!-- Carte 2 (The Pianist) -->
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="12dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/gloss"
+                    android:contentDescription="Movie Poster" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gloss"
+                    android:textColor="#5D161110"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25dt"
+                    android:textColor="@color/Pink1"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <!-- Carte 3 (The Departed) -->
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/oill"
+                    android:contentDescription="Movie Poster" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oil"
+                    android:textColor="#5D161110"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100dt"
+                    android:textColor="@color/Pink1"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <LinearLayout
+            android:layout_width="419dp"
+            android:layout_height="56dp"
+            android:background="#E7C2B0"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <!-- Icône 1 -->
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:contentDescription="Home"
+                android:src="@drawable/home"
+                app:tint="@color/Pink1" />
+
+            <!-- Icône 2 -->
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:contentDescription="Favorites"
+                android:src="@drawable/heart"
+                app:tint="@color/Pink1" />
+
+            <!-- Bouton central -->
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="Switch"
+                android:src="@drawable/switchh"
+                app:tint="@color/Pink1" />
+
+            <!-- Icône 3 -->
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:contentDescription="Cart"
+                android:src="@drawable/cart"
+                app:tint="@color/Pink1" />
+
+            <!-- Icône 4 -->
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:contentDescription="Profile"
+                android:src="@drawable/user"
+                app:tint="@color/Pink1" />
+        </LinearLayout>
+    </LinearLayout>
+        </ScrollView>
+

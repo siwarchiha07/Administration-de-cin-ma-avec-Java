@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picback"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+    <!-- Bouton Explorer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="608dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/explore_button"
+        android:layout_width="189dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="20dp"
+
+        android:backgroundTint="@color/beigeclair"
+        android:text="Explorer"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity=""
+        />
+
+
+</LinearLayout>
+
+
