@@ -10,7 +10,13 @@
 - 🎥 View and manage available movies  
 - ➕ Add, ✏️ edit, and 🗑️ delete movies  
 - 🔐 Sign Up and Sign In authentication  
-- 📊 Dashboard interface for administrators  
+- 📊 Dashboard interface for administrators
+  ![image](https://github.com/user-attachments/assets/aee254b1-9a78-4d9b-93d5-64ea9226cd23)
+  ![image (1)](https://github.com/user-attachments/assets/38fc17af-b092-43ec-a133-04789ca7b702)
+  ![image (2)](https://github.com/user-attachments/assets/3d7947cc-2445-445d-9aff-b1c2386be98a)
+
+
+
 
 ## 🛠 Technologies Used
 
